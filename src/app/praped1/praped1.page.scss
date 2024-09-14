@@ -1,0 +1,19 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* ความสูงเท่ากันทุกอัน */
+    width: 150px;  /* ความกว้างเท่ากันทุกอัน */
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .item-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* ทำให้ภาพพอดีกับกรอบ */
+    background-color:#FEEFAD; 
+  }
+  
